@@ -1,0 +1,261 @@
+{
+  "common": {
+    "loading": "Chargement…",
+    "saving": "Enregistrement…",
+    "save": "Enregistrer",
+    "create": "Créer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "dash": "—",
+    "failed": "Échec",
+    "signOut": "Se déconnecter",
+    "deleted": "Supprimé",
+    "created": "Créé",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "all": "Tous",
+    "status": "Statut",
+    "name": "Nom",
+    "email": "E-mail",
+    "role": "Rôle",
+    "description": "Description",
+    "bio": "Biographie",
+    "language": "Langue",
+    "appName": "SmartBiblio",
+    "appTagline": "Library OS"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "root": {
+    "notFoundTitle": "Page introuvable",
+    "notFoundBody": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "goHome": "Accueil",
+    "errorTitle": "Cette page ne s'est pas chargée",
+    "errorBody": "Une erreur est survenue. Essayez de rafraîchir ou retournez à l'accueil.",
+    "tryAgain": "Réessayer"
+  },
+  "sidebar": {
+    "groupMain": "Principal",
+    "groupManage": "Gérer",
+    "groupSystem": "Système",
+    "dashboard": "Tableau de bord",
+    "catalog": "Catalogue",
+    "loans": "Prêts",
+    "scan": "Scanner",
+    "notifications": "Notifications",
+    "myProfile": "Mon profil",
+    "members": "Membres",
+    "authors": "Auteurs",
+    "genres": "Genres",
+    "bookCopies": "Exemplaires",
+    "settings": "Paramètres"
+  },
+  "auth": {
+    "welcomeBack": "Bon retour",
+    "signInSubtitle": "Connectez-vous à votre compte SmartBiblio",
+    "newHere": "Nouveau ici ?",
+    "createAccountLink": "Créer un compte",
+    "password": "Mot de passe",
+    "forgot": "Oublié ?",
+    "signingIn": "Connexion…",
+    "signIn": "Se connecter",
+    "apiLabel": "API :",
+    "notConfigured": "non configurée",
+    "setApiFirst": "Configurez d'abord l'URL de l'API dans les Paramètres.",
+    "loginFailed": "Échec de la connexion",
+    "createAccount": "Créer votre compte",
+    "createAccountSubtitle": "Commencez à emprunter des livres en quelques secondes",
+    "alreadyHave": "Vous avez déjà un compte ?",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "creating": "Création…",
+    "createAccountBtn": "Créer le compte",
+    "welcomeMsg": "Bienvenue sur SmartBiblio !",
+    "registrationFailed": "Échec de l'inscription",
+    "forgotTitle": "Mot de passe oublié ?",
+    "forgotSubtitle": "Saisissez votre e-mail et nous vous enverrons un lien de réinitialisation.",
+    "backToSignIn": "Retour à la connexion",
+    "resetSentToast": "Lien envoyé si l'e-mail existe.",
+    "resetSentBody": "Si un compte existe pour <b>{{email}}</b>, un lien de réinitialisation est en route.",
+    "sending": "Envoi…",
+    "sendResetLink": "Envoyer le lien",
+    "sendFailed": "Échec de l'envoi",
+    "resetTitle": "Définir un nouveau mot de passe",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le mot de passe",
+    "updating": "Mise à jour…",
+    "resetPassword": "Réinitialiser",
+    "passwordsMismatch": "Les mots de passe ne correspondent pas",
+    "passwordUpdated": "Mot de passe mis à jour. Veuillez vous connecter.",
+    "resetFailed": "Échec de la réinitialisation"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue, {{name}}",
+    "description": "Un aperçu en direct de votre bibliothèque.",
+    "books": "Livres",
+    "inCatalog": "Au catalogue",
+    "loans": "Prêts",
+    "allTime": "Au total",
+    "members": "Membres",
+    "registered": "Inscrits",
+    "overdue": "En retard (visibles)",
+    "inLatestLoans": "Dans les derniers prêts",
+    "recentLoans": "Prêts récents",
+    "bookFallback": "Livre",
+    "due": "à rendre",
+    "noLoans": "Aucun prêt pour le moment."
+  },
+  "books": {
+    "title": "Catalogue",
+    "description": "Parcourez et recherchez tous les livres de votre bibliothèque.",
+    "newBook": "Nouveau livre",
+    "searchPlaceholder": "Rechercher par titre…",
+    "unknownAuthor": "Auteur inconnu",
+    "available": "{{count}} disponible(s)",
+    "unavailable": "Indisponible",
+    "noBooks": "Aucun livre trouvé.",
+    "isbn": "ISBN",
+    "year": "Année",
+    "coverUrl": "URL de couverture",
+    "totalCopies": "Exemplaires totaux",
+    "description_field": "Description",
+    "bookTitle": "Titre",
+    "createdToast": "Livre créé",
+    "createFailed": "Échec de la création du livre",
+    "detail": {
+      "back": "Retour au catalogue",
+      "deleted": "Livre supprimé",
+      "deleteFailed": "Échec de la suppression",
+      "details": "Détails",
+      "available": "Disponibles",
+      "genres": "Genres",
+      "descriptionLbl": "Description",
+      "copies": "Exemplaires"
+    }
+  },
+  "bookCopies": {
+    "title": "Exemplaires",
+    "description": "Exemplaires physiques en circulation",
+    "newCopy": "Nouvel exemplaire",
+    "newCopyTitle": "Nouvel exemplaire de livre",
+    "book": "Livre",
+    "chooseBook": "Choisir un livre…",
+    "barcode": "Code-barres",
+    "condition": "État",
+    "code": "Code",
+    "copyCreated": "Exemplaire créé",
+    "cond": {
+      "new": "Neuf",
+      "good": "Bon",
+      "worn": "Usé",
+      "damaged": "Endommagé"
+    },
+    "stat": {
+      "available": "Disponible",
+      "loaned": "Prêté",
+      "lost": "Perdu",
+      "retired": "Retiré"
+    }
+  },
+  "loans": {
+    "title": "Prêts",
+    "description": "Emprunts actifs et historique",
+    "book": "Livre",
+    "member": "Membre",
+    "loaned": "Emprunté",
+    "due": "À rendre",
+    "noLoans": "Aucun prêt ne correspond au filtre.",
+    "status": {
+      "all": "Tous",
+      "active": "Actifs",
+      "returned": "Retournés",
+      "overdue": "En retard"
+    },
+    "returned": "Prêt retourné",
+    "renewed": "Prêt renouvelé"
+  },
+  "members": {
+    "title": "Membres",
+    "description": "Membres de la bibliothèque et leur statut",
+    "newMember": "Nouveau membre",
+    "statusUpdated": "Statut mis à jour",
+    "deleted": "Membre supprimé",
+    "created": "Membre créé",
+    "tempPassword": "Mot de passe temp.",
+    "toggleStatus": "Basculer le statut",
+    "roles": {
+      "reader": "Lecteur",
+      "librarian": "Bibliothécaire",
+      "admin": "Admin"
+    },
+    "detail": {
+      "back": "Retour aux membres",
+      "profile": "Profil",
+      "qr": "QR",
+      "loanHistory": "Historique des prêts",
+      "due": "À rendre",
+      "bookFallback": "Livre",
+      "noHistory": "Aucun historique de prêt."
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "description": "Rappels, réservations et annonces",
+    "markRead": "Marquer lu",
+    "caughtUp": "Vous êtes à jour."
+  },
+  "profile": {
+    "title": "Mon profil",
+    "description": "Votre carte de bibliothèque et votre compte",
+    "suspension": "Suspension",
+    "libraryCard": "Carte de bibliothèque",
+    "qrAlt": "Code QR"
+  },
+  "scan": {
+    "title": "Scanner et prêter",
+    "description": "Scannez un membre, puis le QR d'un exemplaire.",
+    "step1": "Étape 1 · Membre",
+    "step2": "Étape 2 · Exemplaire",
+    "memberQrPlaceholder": "QR du membre",
+    "bookQrPlaceholder": "QR de l'exemplaire",
+    "find": "Trouver",
+    "loanBtn": "Prêter",
+    "memberFound": "Membre trouvé",
+    "memberNotFound": "Membre introuvable",
+    "loanCreated": "Prêt créé",
+    "scanFailed": "Échec du scan",
+    "scanMemberFirst": "Scannez d'abord un membre.",
+    "loansLine": "Prêts : {{active}}/{{max}} · {{remaining}} restant(s)"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Connectez-vous à votre backend Laravel SmartBiblio",
+    "apiBase": "URL de base de l'API",
+    "apiPlaceholder": "https://votre-hote.com",
+    "endpointsHint": "Les requêtes seront envoyées à",
+    "saveReload": "Enregistrer et recharger",
+    "clear": "Effacer",
+    "savedReloading": "Enregistré. Rechargement…"
+  },
+  "authors": {
+    "title": "Auteurs",
+    "description": "Les personnes qui ont écrit vos livres"
+  },
+  "genres": {
+    "title": "Genres",
+    "description": "Étiquettes pour classer votre catalogue"
+  },
+  "crud": {
+    "addItem": "Ajouter {{name}}",
+    "nothingHere": "Rien ici pour l'instant."
+  },
+  "appHeader": {
+    "brand": "SmartBiblio"
+  },
+  "indexLoading": "Chargement…"
+}

@@ -1,0 +1,261 @@
+{
+  "common": {
+    "loading": "جارٍ التحميل…",
+    "saving": "جارٍ الحفظ…",
+    "save": "حفظ",
+    "create": "إنشاء",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "dash": "—",
+    "failed": "فشل",
+    "signOut": "تسجيل الخروج",
+    "deleted": "تم الحذف",
+    "created": "تم الإنشاء",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "all": "الكل",
+    "status": "الحالة",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "role": "الدور",
+    "description": "الوصف",
+    "bio": "السيرة",
+    "language": "اللغة",
+    "appName": "سمارت بيبليو",
+    "appTagline": "نظام المكتبة"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "root": {
+    "notFoundTitle": "الصفحة غير موجودة",
+    "notFoundBody": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "goHome": "الرئيسية",
+    "errorTitle": "تعذّر تحميل الصفحة",
+    "errorBody": "حدث خطأ ما. حاول التحديث أو العودة إلى الصفحة الرئيسية.",
+    "tryAgain": "إعادة المحاولة"
+  },
+  "sidebar": {
+    "groupMain": "الرئيسية",
+    "groupManage": "إدارة",
+    "groupSystem": "النظام",
+    "dashboard": "لوحة التحكم",
+    "catalog": "الفهرس",
+    "loans": "الإعارات",
+    "scan": "مسح",
+    "notifications": "الإشعارات",
+    "myProfile": "ملفي",
+    "members": "الأعضاء",
+    "authors": "المؤلفون",
+    "genres": "الأنواع",
+    "bookCopies": "نسخ الكتب",
+    "settings": "الإعدادات"
+  },
+  "auth": {
+    "welcomeBack": "أهلاً بعودتك",
+    "signInSubtitle": "سجّل الدخول إلى حساب سمارت بيبليو",
+    "newHere": "جديد هنا؟",
+    "createAccountLink": "أنشئ حساباً",
+    "password": "كلمة المرور",
+    "forgot": "نسيتها؟",
+    "signingIn": "جارٍ تسجيل الدخول…",
+    "signIn": "تسجيل الدخول",
+    "apiLabel": "الـAPI:",
+    "notConfigured": "غير مهيأة",
+    "setApiFirst": "اضبط رابط الـAPI في الإعدادات أولاً.",
+    "loginFailed": "فشل تسجيل الدخول",
+    "createAccount": "أنشئ حسابك",
+    "createAccountSubtitle": "ابدأ باستعارة الكتب في ثوانٍ",
+    "alreadyHave": "لديك حساب بالفعل؟",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "creating": "جارٍ الإنشاء…",
+    "createAccountBtn": "إنشاء الحساب",
+    "welcomeMsg": "مرحباً بك في سمارت بيبليو!",
+    "registrationFailed": "فشل التسجيل",
+    "forgotTitle": "هل نسيت كلمة المرور؟",
+    "forgotSubtitle": "أدخل بريدك وسنرسل لك رابط إعادة التعيين.",
+    "backToSignIn": "العودة إلى تسجيل الدخول",
+    "resetSentToast": "تم إرسال رابط إعادة التعيين إذا كان البريد موجوداً.",
+    "resetSentBody": "إذا كان هناك حساب بـ <b>{{email}}</b>، فإن رابط الإعادة في الطريق.",
+    "sending": "جارٍ الإرسال…",
+    "sendResetLink": "إرسال الرابط",
+    "sendFailed": "فشل إرسال الرابط",
+    "resetTitle": "تعيين كلمة مرور جديدة",
+    "newPassword": "كلمة المرور الجديدة",
+    "confirmPassword": "تأكيد كلمة المرور",
+    "updating": "جارٍ التحديث…",
+    "resetPassword": "إعادة التعيين",
+    "passwordsMismatch": "كلمتا المرور غير متطابقتين",
+    "passwordUpdated": "تم تحديث كلمة المرور. يرجى تسجيل الدخول.",
+    "resetFailed": "فشلت إعادة التعيين"
+  },
+  "dashboard": {
+    "welcome": "مرحباً، {{name}}",
+    "description": "نظرة مباشرة على مكتبتك.",
+    "books": "الكتب",
+    "inCatalog": "في الفهرس",
+    "loans": "الإعارات",
+    "allTime": "إجمالاً",
+    "members": "الأعضاء",
+    "registered": "المسجّلون",
+    "overdue": "المتأخرة (المرئية)",
+    "inLatestLoans": "في أحدث الإعارات",
+    "recentLoans": "الإعارات الأخيرة",
+    "bookFallback": "كتاب",
+    "due": "موعد الإرجاع",
+    "noLoans": "لا توجد إعارات بعد."
+  },
+  "books": {
+    "title": "الفهرس",
+    "description": "تصفّح وابحث في كل كتب مكتبتك.",
+    "newBook": "كتاب جديد",
+    "searchPlaceholder": "ابحث بالعنوان…",
+    "unknownAuthor": "مؤلف غير معروف",
+    "available": "{{count}} متاح",
+    "unavailable": "غير متاح",
+    "noBooks": "لا توجد كتب.",
+    "isbn": "ISBN",
+    "year": "السنة",
+    "coverUrl": "رابط الغلاف",
+    "totalCopies": "إجمالي النسخ",
+    "description_field": "الوصف",
+    "bookTitle": "العنوان",
+    "createdToast": "تم إنشاء الكتاب",
+    "createFailed": "فشل إنشاء الكتاب",
+    "detail": {
+      "back": "العودة إلى الفهرس",
+      "deleted": "تم حذف الكتاب",
+      "deleteFailed": "فشل الحذف",
+      "details": "التفاصيل",
+      "available": "المتاح",
+      "genres": "الأنواع",
+      "descriptionLbl": "الوصف",
+      "copies": "النسخ"
+    }
+  },
+  "bookCopies": {
+    "title": "نسخ الكتب",
+    "description": "النسخ الورقية المتداولة",
+    "newCopy": "نسخة جديدة",
+    "newCopyTitle": "نسخة كتاب جديدة",
+    "book": "الكتاب",
+    "chooseBook": "اختر كتاباً…",
+    "barcode": "الباركود",
+    "condition": "الحالة",
+    "code": "الرمز",
+    "copyCreated": "تم إنشاء النسخة",
+    "cond": {
+      "new": "جديد",
+      "good": "جيد",
+      "worn": "مستعمل",
+      "damaged": "تالف"
+    },
+    "stat": {
+      "available": "متاحة",
+      "loaned": "مُعارة",
+      "lost": "مفقودة",
+      "retired": "مسحوبة"
+    }
+  },
+  "loans": {
+    "title": "الإعارات",
+    "description": "الإعارات النشطة والسجل",
+    "book": "الكتاب",
+    "member": "العضو",
+    "loaned": "تاريخ الإعارة",
+    "due": "تاريخ الإرجاع",
+    "noLoans": "لا توجد إعارات مطابقة للفلتر.",
+    "status": {
+      "all": "الكل",
+      "active": "نشطة",
+      "returned": "مُعادة",
+      "overdue": "متأخرة"
+    },
+    "returned": "تم إرجاع الإعارة",
+    "renewed": "تم تجديد الإعارة"
+  },
+  "members": {
+    "title": "الأعضاء",
+    "description": "أعضاء المكتبة وحالتهم",
+    "newMember": "عضو جديد",
+    "statusUpdated": "تم تحديث الحالة",
+    "deleted": "تم حذف العضو",
+    "created": "تم إنشاء العضو",
+    "tempPassword": "كلمة مرور مؤقتة",
+    "toggleStatus": "تبديل الحالة",
+    "roles": {
+      "reader": "قارئ",
+      "librarian": "أمين مكتبة",
+      "admin": "مسؤول"
+    },
+    "detail": {
+      "back": "العودة إلى الأعضاء",
+      "profile": "الملف",
+      "qr": "QR",
+      "loanHistory": "سجل الإعارات",
+      "due": "تاريخ الإرجاع",
+      "bookFallback": "كتاب",
+      "noHistory": "لا يوجد سجل إعارات."
+    }
+  },
+  "notifications": {
+    "title": "الإشعارات",
+    "description": "التذكيرات والحجوزات والإعلانات",
+    "markRead": "تعليم مقروء",
+    "caughtUp": "لقد اطلعت على كل شيء."
+  },
+  "profile": {
+    "title": "ملفي",
+    "description": "بطاقة المكتبة والحساب",
+    "suspension": "الإيقاف",
+    "libraryCard": "بطاقة المكتبة",
+    "qrAlt": "رمز QR"
+  },
+  "scan": {
+    "title": "المسح والإعارة",
+    "description": "امسح عضواً ثم QR نسخة كتاب.",
+    "step1": "الخطوة 1 · العضو",
+    "step2": "الخطوة 2 · نسخة الكتاب",
+    "memberQrPlaceholder": "رمز QR للعضو",
+    "bookQrPlaceholder": "رمز QR للنسخة",
+    "find": "بحث",
+    "loanBtn": "إعارة",
+    "memberFound": "تم العثور على العضو",
+    "memberNotFound": "العضو غير موجود",
+    "loanCreated": "تم إنشاء الإعارة",
+    "scanFailed": "فشل المسح",
+    "scanMemberFirst": "امسح عضواً أولاً.",
+    "loansLine": "الإعارات: {{active}}/{{max}} · متبقٍ {{remaining}}"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "description": "اتصل بخادم SmartBiblio Laravel الخاص بك",
+    "apiBase": "رابط الـAPI الأساسي",
+    "apiPlaceholder": "https://your-host.com",
+    "endpointsHint": "ستُرسل الطلبات إلى",
+    "saveReload": "حفظ وإعادة تحميل",
+    "clear": "مسح",
+    "savedReloading": "تم الحفظ. إعادة تحميل…"
+  },
+  "authors": {
+    "title": "المؤلفون",
+    "description": "كاتبو كتبك"
+  },
+  "genres": {
+    "title": "الأنواع",
+    "description": "وسوم لتصنيف فهرسك"
+  },
+  "crud": {
+    "addItem": "إضافة {{name}}",
+    "nothingHere": "لا يوجد شيء هنا بعد."
+  },
+  "appHeader": {
+    "brand": "سمارت بيبليو"
+  },
+  "indexLoading": "جارٍ التحميل…"
+}

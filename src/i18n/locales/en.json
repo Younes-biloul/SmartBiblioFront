@@ -1,0 +1,261 @@
+{
+  "common": {
+    "loading": "Loading…",
+    "saving": "Saving…",
+    "save": "Save",
+    "create": "Create",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "dash": "—",
+    "failed": "Failed",
+    "signOut": "Sign out",
+    "deleted": "Deleted",
+    "created": "Created",
+    "active": "Active",
+    "inactive": "Inactive",
+    "all": "All",
+    "status": "Status",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "description": "Description",
+    "bio": "Bio",
+    "language": "Language",
+    "appName": "SmartBiblio",
+    "appTagline": "Library OS"
+  },
+  "languages": {
+    "en": "English",
+    "fr": "Français",
+    "ar": "العربية"
+  },
+  "root": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go home",
+    "errorTitle": "This page didn't load",
+    "errorBody": "Something went wrong on our end. You can try refreshing or head back home.",
+    "tryAgain": "Try again"
+  },
+  "sidebar": {
+    "groupMain": "Main",
+    "groupManage": "Manage",
+    "groupSystem": "System",
+    "dashboard": "Dashboard",
+    "catalog": "Catalog",
+    "loans": "Loans",
+    "scan": "Scan",
+    "notifications": "Notifications",
+    "myProfile": "My Profile",
+    "members": "Members",
+    "authors": "Authors",
+    "genres": "Genres",
+    "bookCopies": "Book Copies",
+    "settings": "Settings"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "signInSubtitle": "Sign in to your SmartBiblio account",
+    "newHere": "New here?",
+    "createAccountLink": "Create an account",
+    "password": "Password",
+    "forgot": "Forgot?",
+    "signingIn": "Signing in…",
+    "signIn": "Sign in",
+    "apiLabel": "API:",
+    "notConfigured": "not configured",
+    "setApiFirst": "Set your API base URL in Settings first.",
+    "loginFailed": "Login failed",
+    "createAccount": "Create your account",
+    "createAccountSubtitle": "Start borrowing books in seconds",
+    "alreadyHave": "Already have an account?",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "creating": "Creating…",
+    "createAccountBtn": "Create account",
+    "welcomeMsg": "Welcome to SmartBiblio!",
+    "registrationFailed": "Registration failed",
+    "forgotTitle": "Forgot your password?",
+    "forgotSubtitle": "Enter your email and we'll send you a reset link.",
+    "backToSignIn": "Back to sign in",
+    "resetSentToast": "Reset link sent if the email exists.",
+    "resetSentBody": "If an account exists for <b>{{email}}</b>, a reset link is on the way.",
+    "sending": "Sending…",
+    "sendResetLink": "Send reset link",
+    "sendFailed": "Failed to send link",
+    "resetTitle": "Set a new password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm password",
+    "updating": "Updating…",
+    "resetPassword": "Reset password",
+    "passwordsMismatch": "Passwords do not match",
+    "passwordUpdated": "Password updated. Please sign in.",
+    "resetFailed": "Reset failed"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}",
+    "description": "A live look at your library.",
+    "books": "Books",
+    "inCatalog": "In catalog",
+    "loans": "Loans",
+    "allTime": "All time",
+    "members": "Members",
+    "registered": "Registered",
+    "overdue": "Overdue (visible)",
+    "inLatestLoans": "In latest loans",
+    "recentLoans": "Recent loans",
+    "bookFallback": "Book",
+    "due": "due",
+    "noLoans": "No loans yet."
+  },
+  "books": {
+    "title": "Catalog",
+    "description": "Browse and search every book in your library.",
+    "newBook": "New book",
+    "searchPlaceholder": "Search by title…",
+    "unknownAuthor": "Unknown author",
+    "available": "{{count}} available",
+    "unavailable": "Unavailable",
+    "noBooks": "No books found.",
+    "isbn": "ISBN",
+    "year": "Year",
+    "coverUrl": "Cover URL",
+    "totalCopies": "Total copies",
+    "description_field": "Description",
+    "bookTitle": "Title",
+    "createdToast": "Book created",
+    "createFailed": "Failed to create book",
+    "detail": {
+      "back": "Back to catalog",
+      "deleted": "Book deleted",
+      "deleteFailed": "Delete failed",
+      "details": "Details",
+      "available": "Available",
+      "genres": "Genres",
+      "descriptionLbl": "Description",
+      "copies": "Copies"
+    }
+  },
+  "bookCopies": {
+    "title": "Book copies",
+    "description": "Physical copies in circulation",
+    "newCopy": "New copy",
+    "newCopyTitle": "New book copy",
+    "book": "Book",
+    "chooseBook": "Choose a book…",
+    "barcode": "Barcode",
+    "condition": "Condition",
+    "code": "Code",
+    "copyCreated": "Copy created",
+    "cond": {
+      "new": "New",
+      "good": "Good",
+      "worn": "Worn",
+      "damaged": "Damaged"
+    },
+    "stat": {
+      "available": "Available",
+      "loaned": "Loaned",
+      "lost": "Lost",
+      "retired": "Retired"
+    }
+  },
+  "loans": {
+    "title": "Loans",
+    "description": "Active checkouts and history",
+    "book": "Book",
+    "member": "Member",
+    "loaned": "Loaned",
+    "due": "Due",
+    "noLoans": "No loans match the filter.",
+    "status": {
+      "all": "All",
+      "active": "Active",
+      "returned": "Returned",
+      "overdue": "Overdue"
+    },
+    "returned": "Loan returned",
+    "renewed": "Loan renewed"
+  },
+  "members": {
+    "title": "Members",
+    "description": "Library members and their status",
+    "newMember": "New member",
+    "statusUpdated": "Status updated",
+    "deleted": "Member deleted",
+    "created": "Member created",
+    "tempPassword": "Temp password",
+    "toggleStatus": "Toggle status",
+    "roles": {
+      "reader": "Reader",
+      "librarian": "Librarian",
+      "admin": "Admin"
+    },
+    "detail": {
+      "back": "Back to members",
+      "profile": "Profile",
+      "qr": "QR",
+      "loanHistory": "Loan history",
+      "due": "Due",
+      "bookFallback": "Book",
+      "noHistory": "No loan history."
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "description": "Reminders, holds, and announcements",
+    "markRead": "Mark read",
+    "caughtUp": "You're all caught up."
+  },
+  "profile": {
+    "title": "My profile",
+    "description": "Your library card and account",
+    "suspension": "Suspension",
+    "libraryCard": "Library card",
+    "qrAlt": "QR code"
+  },
+  "scan": {
+    "title": "Scan & Loan",
+    "description": "Scan a member, then a book copy QR.",
+    "step1": "Step 1 · Member",
+    "step2": "Step 2 · Book copy",
+    "memberQrPlaceholder": "Member QR code",
+    "bookQrPlaceholder": "Book copy QR",
+    "find": "Find",
+    "loanBtn": "Loan",
+    "memberFound": "Member found",
+    "memberNotFound": "Member not found",
+    "loanCreated": "Loan created",
+    "scanFailed": "Scan failed",
+    "scanMemberFirst": "Scan a member first.",
+    "loansLine": "Loans: {{active}}/{{max}} · {{remaining}} remaining"
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Connect to your SmartBiblio Laravel backend",
+    "apiBase": "API base URL",
+    "apiPlaceholder": "https://your-host.com",
+    "endpointsHint": "Endpoints will be called as",
+    "saveReload": "Save & reload",
+    "clear": "Clear",
+    "savedReloading": "Saved. Reloading…"
+  },
+  "authors": {
+    "title": "Authors",
+    "description": "People who wrote your books"
+  },
+  "genres": {
+    "title": "Genres",
+    "description": "Tags to classify your catalog"
+  },
+  "crud": {
+    "addItem": "Add {{name}}",
+    "nothingHere": "Nothing here yet."
+  },
+  "appHeader": {
+    "brand": "SmartBiblio"
+  },
+  "indexLoading": "Loading…"
+}
