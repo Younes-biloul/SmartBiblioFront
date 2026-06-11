@@ -15,7 +15,7 @@ if (!i18n.isInitialized) {
         fr: { translation: fr },
         ar: { translation: ar },
       },
-      lng: "en",
+      lng: localStorage.getItem("i18nextLng") || undefined,
       fallbackLng: "en",
       supportedLngs: ["en", "fr", "ar"],
       interpolation: { escapeValue: false },
