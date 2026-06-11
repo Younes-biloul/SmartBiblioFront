@@ -81,7 +81,7 @@ export function SbSidebar() {
           </SidebarGroup>
         )}
 
-        <SidebarGroup>
+        {/* <SidebarGroup>
           <SidebarGroupLabel>{t("sidebar.groupSystem")}</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
@@ -95,7 +95,7 @@ export function SbSidebar() {
               </SidebarMenuItem>
             </SidebarMenu>
           </SidebarGroupContent>
-        </SidebarGroup>
+        </SidebarGroup> */}
       </SidebarContent>
       <SidebarFooter>
         <div className="flex items-center justify-between gap-2 px-2 py-2">

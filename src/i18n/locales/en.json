@@ -24,7 +24,21 @@
     "bio": "Bio",
     "language": "Language",
     "appName": "SmartBiblio",
-    "appTagline": "Library OS"
+    "appTagline": "Library OS",
+    "no-results": "No results",
+    "unknown": "Unknown",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "created": "Created",
+    "updated": "Updated",
+    "deleted": "Deleted",
+    "returned": "Returned",
+    "returnFailed": "Return failed",
+    "renewFailed": "Renew failed",
+    "loanCreated": "Loan created",
+    "loanUpdated": "Loan updated"
+    
   },
   "languages": {
     "en": "English",
@@ -177,7 +191,18 @@
       "overdue": "Overdue"
     },
     "returned": "Loan returned",
-    "renewed": "Loan renewed"
+    "renewed": "Loan renewed",
+    "create": "Loan create",
+    "user": "User",
+    "bookCopy": "Book copy",
+    "book": "Book",
+    "created": "Loan created",
+    "updated": "Loan updated",
+    "returned": "Loan returned",
+    "returnFailed": "Return failed",
+    "renewFailed": "Renew failed",
+    "loanCreated": "Loan created",
+    "loanUpdated": "Loan updated"
   },
   "members": {
     "title": "Members",
@@ -214,7 +239,8 @@
     "description": "Your library card and account",
     "suspension": "Suspension",
     "libraryCard": "Library card",
-    "qrAlt": "QR code"
+    "qrAlt": "QR code",
+    "downloadQr": "Download QR Code"
   },
   "scan": {
     "title": "Scan & Loan",
@@ -244,7 +270,12 @@
   },
   "authors": {
     "title": "Authors",
-    "description": "People who wrote your books"
+    "description": "People who wrote your books",
+    "addAuthor": "Add author",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "nationality": "Nationality",
+    "biography": "Biography"
   },
   "genres": {
     "title": "Genres",

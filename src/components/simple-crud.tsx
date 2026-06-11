@@ -60,7 +60,7 @@ export function SimpleCrud({
               <DialogHeader><DialogTitle>{t("crud.addItem", { name: title.toLowerCase().slice(0, -1) })}</DialogTitle></DialogHeader>
               <form onSubmit={(e) => { e.preventDefault(); create.mutate(); }} className="space-y-3">
                 <div className="space-y-2"><Label>{t("common.name")}</Label><Input value={name} onChange={(e) => setName(e.target.value)} required /></div>
-                <div className="space-y-2"><Label className="capitalize">{t(longField === "biography" ? "common.bio" : "common.description")}</Label><Textarea rows={3} value={extra} onChange={(e) => setExtra(e.target.value)} /></div>
+                <div className="space-y-2"><Label className="capitalize">{t(longField === "bio" ? "common.bio" : "common.description")}</Label><Textarea rows={3} value={extra} onChange={(e) => setExtra(e.target.value)} /></div>
                 <DialogFooter><Button type="submit" disabled={create.isPending}>{create.isPending ? t("common.saving") : t("common.create")}</Button></DialogFooter>
               </form>
             </DialogContent>
@@ -70,13 +70,13 @@ export function SimpleCrud({
       <div className="overflow-hidden rounded-xl border bg-card">
         <table className="w-full text-sm">
           <thead className="bg-muted/30 text-left text-xs uppercase tracking-widest text-muted-foreground">
-            <tr><th className="px-4 py-3">{t("common.name")}</th><th className="px-4 py-3 capitalize">{t(longField === "biography" ? "common.bio" : "common.description")}</th><th className="px-4 py-3"></th></tr>
+            <tr><th className="px-4 py-3">{t("common.name")}</th><th className="px-4 py-3 capitalize">{t(longField === "bio" ? "common.bio" : "common.description")}</th><th className="px-4 py-3"></th></tr>
           </thead>
           <tbody className="divide-y">
             {list.isLoading && <tr><td colSpan={3} className="px-4 py-8 text-center text-muted-foreground">{t("common.loading")}</td></tr>}
             {list.data?.data?.map((row) => (
               <tr key={row.id}>
-                <td className="px-4 py-3 font-medium">{row.name??row.first_name + " " + row.last_name}</td>
+                <td className="px-4 py-3 font-medium">{row.name}</td>
                 <td className="px-4 py-3 text-muted-foreground line-clamp-1">{(row[longField] as string | null | undefined) ?? "—"}</td>
                 <td className="px-4 py-3 text-right">
                   {hasRole("admin") && (

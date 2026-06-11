@@ -24,7 +24,12 @@
     "bio": "Biographie",
     "language": "Langue",
     "appName": "SmartBiblio",
-    "appTagline": "Library OS"
+    "appTagline": "Library OS",
+    "no-results": "Aucun résultat",
+    "unknown": "Inconnu",
+    "error": "Erreur",
+    "success": "Succès",
+    "warning": "Avertissement"
   },
   "languages": {
     "en": "English",
@@ -177,7 +182,16 @@
       "overdue": "En retard"
     },
     "returned": "Prêt retourné",
-    "renewed": "Prêt renouvelé"
+    "renewed": "Prêt renouvelé",
+    "create": "Créer un prêt",
+    "user": "Utilisateur",
+    "bookCopy": "Exemplaire de livre",
+    "book": "Livre",
+    "updated": "Prêt mis à jour",
+    "created": "Prêt créé",
+    "returned": "Prêt retourné",
+    "returnFailed": "Échec du retour",
+    "renewFailed": "Échec du renouvellement"
   },
   "members": {
     "title": "Membres",
@@ -214,7 +228,8 @@
     "description": "Votre carte de bibliothèque et votre compte",
     "suspension": "Suspension",
     "libraryCard": "Carte de bibliothèque",
-    "qrAlt": "Code QR"
+    "qrAlt": "Code QR",
+    "downloadQr": "Télécharger le code QR"
   },
   "scan": {
     "title": "Scanner et prêter",
@@ -244,7 +259,12 @@
   },
   "authors": {
     "title": "Auteurs",
-    "description": "Les personnes qui ont écrit vos livres"
+    "description": "Les personnes qui ont écrit vos livres",
+    "addAuthor": "Ajouter un auteur",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "nationality": "Nationalité",
+    "biography": "Biographie"
   },
   "genres": {
     "title": "Genres",

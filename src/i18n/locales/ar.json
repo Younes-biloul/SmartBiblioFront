@@ -24,7 +24,13 @@
     "bio": "السيرة",
     "language": "اللغة",
     "appName": "سمارت بيبليو",
-    "appTagline": "نظام المكتبة"
+    "appTagline": "نظام المكتبة",
+    "no-results": "لا توجد نتائج",
+    "unknown": "غير معروف",
+    "error": "خطأ",
+    "success": "نجاح",
+    "warning": "تحذير"
+
   },
   "languages": {
     "en": "English",
@@ -108,7 +114,11 @@
     "recentLoans": "الإعارات الأخيرة",
     "bookFallback": "كتاب",
     "due": "موعد الإرجاع",
-    "noLoans": "لا توجد إعارات بعد."
+    "noLoans": "لا توجد إعارات بعد.",
+    "create": "إنشاء إعارة",
+    "user": "المستخدم",
+    "bookCopy": "نسخة الكتاب",
+    "book": "الكتاب"
   },
   "books": {
     "title": "الفهرس",
@@ -177,7 +187,15 @@
       "overdue": "متأخرة"
     },
     "returned": "تم إرجاع الإعارة",
-    "renewed": "تم تجديد الإعارة"
+    "renewed": "تم تجديد الإعارة",
+    "create": "إنشاء إعارة",
+    "update": "تحديث الإعارة",
+    "user": "المستخدم",
+    "bookCopy": "نسخة الكتاب",
+    "book": "الكتاب",
+    "created": "تم إنشاء الإعارة",
+    "updated": "تم تحديث الإعارة",
+    "returned": "تم إرجاع الإعارة"
   },
   "members": {
     "title": "الأعضاء",
@@ -214,7 +232,8 @@
     "description": "بطاقة المكتبة والحساب",
     "suspension": "الإيقاف",
     "libraryCard": "بطاقة المكتبة",
-    "qrAlt": "رمز QR"
+    "qrAlt": "رمز QR",
+    "downloadQr": "تحميل رمز QR"
   },
   "scan": {
     "title": "المسح والإعارة",
@@ -244,7 +263,12 @@
   },
   "authors": {
     "title": "المؤلفون",
-    "description": "كاتبو كتبك"
+    "description": "كاتبو كتبك",
+    "addAuthor": "إضافة مؤلف",
+    "firstName": "الاسم الأول",
+    "lastName": "اسم العائلة",
+    "nationality": "الجنسية",
+    "biography": "السيرة"
   },
   "genres": {
     "title": "الأنواع",
