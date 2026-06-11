@@ -9,23 +9,32 @@ if (!i18n.isInitialized) {
   i18n
     .use(LanguageDetector)
     .use(initReactI18next)
-    .init({
-      resources: {
-        en: { translation: en },
-        fr: { translation: fr },
-        ar: { translation: ar },
-      },
-      lng: localStorage.getItem("i18nextLng") || undefined,
-      fallbackLng: "en",
-      supportedLngs: ["en", "fr", "ar"],
-      interpolation: { escapeValue: false },
-      detection: {
-        order: ["localStorage", "navigator"],
-        caches: ["localStorage"],
-        lookupLocalStorage: "i18nextLng",
-      },
-      returnNull: false,
-    });
+    i18n
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    resources: {
+      en: { translation: en },
+      fr: { translation: fr },
+      ar: { translation: ar },
+    },
+
+    fallbackLng: "en",
+
+    supportedLngs: ["en", "fr", "ar"],
+
+    detection: {
+      order: ["localStorage", "navigator"],
+      caches: ["localStorage"],
+      lookupLocalStorage: "i18nextLng",
+    },
+
+    interpolation: {
+      escapeValue: false,
+    },
+
+    returnNull: false,
+  });
 }
 
 export function applyLanguageSideEffects(lng: string) {
